@@ -1,0 +1,160 @@
+{
+  "baseTeam": [
+    {
+      "quarterback": {
+        "name": "Base QB 1",
+        "traits": {
+            
+        },
+        "skills": {
+          "throwpower": 5,
+          "throwaccuracyshort": 5,
+          "throwaccuracymedium": 5,
+          "throwaccuracylong": 5,
+          "speed": 5,
+          "strength": 5
+        }        
+      }
+    },
+    {
+      "runningback": {
+        "name": "Base RB 1",
+        "traits": {
+
+        },
+        "skills": {
+          "speed": 5,
+          "strength": 5,
+          "catch": 5,
+          "elusiveness": 5
+        }
+      }
+    },
+    {
+      "fullback": {
+        "name": "Base FB 1",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "catch": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    },
+    {
+      "tightend": {
+        "name": "Base TE 1",
+        "traits": {
+
+        },
+        "skills": {
+          "speed": 5,
+          "strength": 5,
+          "runblock": 5,
+          "passblock": 5,
+          "catch": 5
+        }
+      }
+    },
+    {
+      "widereciever": {
+        "name": "Base WR 1",
+        "traits": {
+
+        },
+        "skills": {
+          "speed": 5,
+          "strength": 5,
+          "catch": 5
+        }
+      }
+    },
+    {
+      "widereciever": {
+        "name": "Base WR 2",
+        "traits": {
+
+        },
+        "skills": {
+          "speed": 5,
+          "strength": 5,
+          "catch": 5
+        }
+      }
+    },
+    {
+      "offensivetackle": {
+        "name": "Base OT 1",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    },
+    {
+      "offensivetackle": {
+        "name": "Base OT 2",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    },
+    {
+      "offensiveguard": {
+        "name": "Base OG 1",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    },
+    {
+      "offensiveguard": {
+        "name": "Base OG 2",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    },
+    {
+      "center": {
+        "name": "Base C 1",
+        "traits": {
+
+        },
+        "skills":{
+          "speed": 5,
+          "strength": 5,
+          "passblock": 5,
+          "runblock": 5
+        }
+      }
+    }
+  ]
+}

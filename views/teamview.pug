@@ -1,0 +1,297 @@
+extends layout
+
+block layout-content
+    script(src="/clientJS/teamView.js")
+    div.flexboxcenter
+        h2 Here is your base team...
+    div.flexboxcenter
+        //- WIDE RECEIVER 1
+        div.wideReceiverLeftLineup
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{wr1name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{wr1traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{wr1speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{wr1str}
+                        td(title="Catching")
+                            div Cth:
+                            div #{wr1catch}
+                    tr
+                        td
+                        td
+                        td
+        //- WIDE RECEIVER 3 Placeholder
+        div.wideReceiverLeftLineup
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{wr1name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{wr1traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{wr1speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{wr1str}
+                        td(title="Catching")
+                            div Cth:
+                            div #{wr1catch}
+                    tr
+                        td
+                        td
+                        td
+        //- OFFENSIVE LINE
+        div.offensiveLinemenLineup
+            //- LEFT OFFENSIVE TACKLE 
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{oft1name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{oft1traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{oft1speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{oft1str}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{oft1pb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{oft1rb}
+                        td
+                        td
+            //- LEFT OFFENSIVE GUARD
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{ofg1name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{ofg1traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{ofg1speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{ofg1str}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{ofg1pb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{ofg1rb}
+                        td
+                        td
+            //- OFFENSIVE CENTER
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{ofcname}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{ofctraits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{ofcspeed}
+                        td(title="Strength")
+                            div Str:
+                            div #{ofcstr}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{ofcpb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{ofcrb}
+                        td
+                        td
+            //- RIGHT OFFENSIVE GUARD
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{ofg2name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{ofg2traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{ofg2speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{ofg2str}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{ofg2pb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{ofg2rb}
+                        td
+                        td
+            //- RIGHT OFFENSIVE TACKLE
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{oft2name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{oft2traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{oft2speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{oft2str}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{oft2pb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{oft2rb}
+                        td
+                        td
+        //- TIGHT END
+        div.tightEndLineup
+            div.playerCardOutline 
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{tename}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{tetraits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{tespeed}
+                        td(title="Strength")
+                            div Str:
+                            div #{testr}
+                        td(title="Pass Block")
+                            div Pbl:
+                            div #{tepb}
+                    tr
+                        td(title="Run Block")
+                            div Rbl:
+                            div #{terb}
+                        td(title="Catching")
+                            div Cth:
+                            div #{tecatch}
+                        td
+        //- WIDE RECEIVER 2
+        div.wideReceiverRightLineup
+            div.playerCardOutline
+                div.playerCardTopSection
+                    div.playerCardImageHolder
+                        image(src="images/playerCardImg.JPG" style="width:100%;height:100%;")
+                    div 
+                        table   
+                            tr  
+                                td(title="Player Name") 
+                                    div Name: 
+                                    div #{wr2name}
+                            tr
+                                td(title="Player Traits")
+                                    div Traits:
+                                    div #{wr2traits}
+                table(style="width:100%")
+                    tr
+                        td(title="Speed")
+                            div Spe:
+                            div #{wr2speed}
+                        td(title="Strength")
+                            div Str:
+                            div #{wr2str}
+                        td(title="Catching")
+                            div Cth:
+                            div #{wr2catch}
+                    tr
+                        td
+                        td
+                        td

@@ -1,0 +1,152 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 108.88px;
+  background-image: URL("/images/fbfieldbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* HEADER STYLING */
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+.flexboxcenter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headermenu {
+  margin-left: 10%;
+}
+
+.headermenu a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 20px;
+}
+/* END HEADER STYLING */
+
+/* COLOR PALETE */
+/* Background */
+/* Vermillion and Russian Green */
+.bgcolordkorange {
+  background-color: #dc3d24;
+}
+
+.bgcolorcharcoal {
+  background-color: #232b2b;
+}
+
+.bgcolorltcharcoal {
+  background-color: #384040;
+}
+
+.bgcolormustard {
+  background-color: #e3ae57;
+}
+
+.bgcolorwhite {
+  background-color: #ffffff;
+}
+
+.bgcolornotepadyellow {
+  background-color: #ece63d;
+}
+
+/* Font Colors */
+.colordkorange {
+  color: #dc3d24;
+}
+
+.colorcharcoal {
+  color: #232b2b;
+}
+
+.colormustard {
+  color: #e3ae57;
+}
+
+.colorwhite {
+  color: #ffffff;
+}
+/* END COLOR PALETTE */
+
+/* Coach Select */
+.coachSelectButtonSection {
+  margin-top: 25px;
+  border: 1px solid #d3d3d3;
+  padding: 25px;
+  width: 300px;
+}
+.coachSelectButtonSection:hover {
+  cursor: pointer;
+  outline: 1px solid orange;
+}
+.coachnametext {
+  font-size: 25px;
+}
+
+/* Team View */
+.playerCardOutline {
+  height: 150px;
+  width: 100px;
+  border: 5px solid#696969;
+  background-color: #c0c0c0;
+  transition: all 0.2s ease-in-out;
+  font-size: 8px;
+}
+.playerCardOutline:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.playerCardTopSection {
+  display: flex;
+}
+.playerCardImageHolder {
+  height: 75px;
+  width: 50%;
+}
+
+.offensiveLinemenLineup {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.wideReceiverLeftLineup {
+  display: flex;
+  width: 110px;
+}
+.tightEndLineup {
+  display: flex;
+  width: 110px;
+}
+.wideReceiverRightLineup {
+  display: flex;
+  width: 110px;
+}
+
+/* INPUT STYLE */
+input {
+  border: none;
+  background-color: transparent;
+}
+input:focus {
+  outline: none;
+}

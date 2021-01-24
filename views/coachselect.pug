@@ -1,0 +1,21 @@
+extends layout
+
+block layout-content
+    script(src="/clientJS/coachSelect.js")
+    div.flexboxcenter
+        h2 Select a Coach...
+    div.flexboxcenter
+        form(method="GET" action='/teamview' id="coachOne")
+            div(class="coachSelectButtonSection bgcolorltcharcoal colorwhite" onclick="javascript:document.getElementById('coachOne').submit();")
+                div(class="colordkorange coachnametext") #[b #{optOneName} ]
+                div(class="colormustard") #[i #{optOneSpec} ]
+                div #{optOnePos}
+                div #{optOneDesc}
+                input(type='hidden', name='optionSel' value=`${optOneId}`)
+        form(method="GET" action='/teamview' id="coachTwo")
+            div(class="coachSelectButtonSection bgcolorltcharcoal colorwhite" onclick="javascript:document.getElementById('coachTwo').submit();")
+                div(class="colordkorange coachnametext") #[b #{optTwoName} ]
+                div(class="colormustard") #[i #{optTwoSpec} ]
+                div #{optTwoPos}
+                div #{optTwoDesc}
+                input(type='hidden', name='optionSel' value=`${optTwoId}`)

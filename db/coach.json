@@ -1,0 +1,32 @@
+{
+  "coach": [
+    {
+      "id": 1,
+      "name": "Tommy Flyn",
+      "specialty": "Aerial Assault",
+      "positions": "QB WR TE OL",
+      "description": "Tommy is a top notch offensive mind. He focuses heavily on the passing game."
+    },
+    {
+      "id": 2,
+      "name": "Billy Rush",
+      "specialty": "Rumbling Rampage",
+      "positions": "RB FB TE OL",
+      "description": "Billy leans heavily on the running game."
+    },
+    {
+      "id": 3,
+      "name": "Ron Wendel",
+      "specialty": "Sack 'Em",
+      "positions": "DL LB SS FS CB",
+      "description": "Ron wants the opposing quarterback to feel the pressure on every play."
+    },
+    {
+      "id": 4,
+      "name": "Dell Smalls",
+      "specialty": "Lockdown",
+      "positions": "SS FS CB",
+      "description": "Dell strives to stop the opposing areial attack."
+    }
+  ]
+}
