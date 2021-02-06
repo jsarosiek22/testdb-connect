@@ -13,11 +13,7 @@ ourApp.use("/", express.static(path.join(__dirname, "")));
 
 ourApp.use(express.urlencoded({ extended: false }));
 
-var betmarkuri =
-  "mongodb+srv://jacobsar:884eVabYm@cluster0-izhej.mongodb.net/test?retryWrites=true&w=majority";
 
-var fburi =
-  "mongodb+srv://jacobsar:5BX65XxntnhK@cluster0-tw5fr.mongodb.net/test?retryWrites=true&w=majority";
 
 ourApp.get("/", (req, res) => {
   res.render("index", { title: "Home" });
